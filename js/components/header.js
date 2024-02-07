@@ -10,7 +10,7 @@ class Header extends HTMLElement {
         <div class="container">
             <a href="../index.html" class="navbar-brand mb-0 h1">
                 <img class="d-inline-block align-top" src="../figures/icone.ico" width="30" height="30" />
-                Stories
+                Home
             </a>
 
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
@@ -23,25 +23,23 @@ class Header extends HTMLElement {
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        All stories
+                        Highlights
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a href="/pages/whereEurope.html" class="dropdown-item">Where is Europe ?</a></li>
-                        <li><a href="/pages/whatEurope.html" class="dropdown-item">What is Europe ?</a></li>
-                        <li><a href="/pages/whatShould.html" class="dropdown-item">What should Europe be ?</a></li>
-                        <li><a href="/pages/tunisia.html" class="dropdown-item">Where is Tunisia ?</a></li>
-                        <li><a href="/pages/turkey.html" class="dropdown-item">Where is Turkey ?</a></li>
-                        <li><a href="/pages/caribbean.html" class="dropdown-item">Where is French Caribbean ?</a></li>
+                        <li><a href="/pages/whereEurope.html" class="dropdown-item">Albums</a></li>
+                        <li><a href="/pages/whatEurope.html" class="dropdown-item">Playlists</a></li>
+                        <li><a href="/pages/whatShould.html" class="dropdown-item">Scores</a></li>
+                        <li><a href="/pages/tunisia.html" class="dropdown-item">Read</a></li>
                         </ul>
                 </li>
                     <li class="nav-item active">
                         <a href="#" class="nav-link">
-                            About
+                            Highlights
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            Contact
+                            About
                         </a>
                     </li>
                     <li class="nav-item">
